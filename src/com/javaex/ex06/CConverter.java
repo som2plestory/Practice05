@@ -1,7 +1,7 @@
 package com.javaex.ex06;
 
 public class CConverter {
-    
+	
     public static double rate;
     
     public static void setRate(double rate){
@@ -15,6 +15,5 @@ public class CConverter {
     public static double toKWR(double dollar){
         return dollar * rate;
     }
-    
 
 }

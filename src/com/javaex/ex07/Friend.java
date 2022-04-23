@@ -5,9 +5,32 @@ public class Friend {
     private String name;
     private String hp;
     private String school;
-
     
+
     // getter/setter 작성
+    public void setName(String name) {
+    	this.name = name;
+    }
+    
+    public String getName() {
+    	return name;
+    }
+    
+    public void setHp(String hp) {
+    	this.hp = hp;
+    }
+    
+    public String getHp() {
+    	return hp;
+    }
+    
+    public void setSchool(String school) {
+    	this.school = school;
+    }
+    
+    public String getSchool() {
+    	return school;
+    }
     
     
     
