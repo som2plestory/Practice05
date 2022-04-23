@@ -62,7 +62,7 @@ public class Book {
 		if(stateCode==1) {
 			state = "재고있음";
 		}else {
-			state = "재고있음";
+			state = "대여중";
 		}
 		System.out.println(bookNo+" 책 제목:"+title+", 작가:"+author+", 대여 유무:"+state);
 	}
