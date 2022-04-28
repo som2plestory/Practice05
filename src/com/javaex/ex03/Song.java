@@ -33,7 +33,6 @@ public class Song {
 	 * Song(파라미터5개")
 	 * Song(파라미터6개")
 	 */
-	
 	public void showInfo() {
 		System.out.println("타이틀="+title+", 가수="+artist+", 앨범="+album+", 작곡가="+composer+", 발매년도="+year+", 트랙="+track);
 	}
